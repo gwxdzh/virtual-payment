@@ -1,0 +1,54 @@
+{
+  "name": "virtual-payment-system",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "initdb": "node scripts/initdb.js",
+    "initadmin": "node scripts/initAdminUser.js",
+    "initlog": "node scripts/createLogTable.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "logs:stats": "node scripts/logManager.js --stats",
+    "logs:archive": "node scripts/logManager.js --archive",
+    "logs:delete": "node scripts/logManager.js --delete"
+  },
+  "keywords": [
+    "payment",
+    "virtual",
+    "api",
+    "financial"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "虚拟支付系统，基于Node.js和MySQL实现",
+  "dependencies": {
+    "@koa/cors": "^5.0.0",
+    "archiver": "^7.0.1",
+    "axios": "^1.4.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "helmet": "^7.0.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "jsonwebtoken": "^9.0.0",
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.1",
+    "koa-helmet": "^8.0.1",
+    "koa-router": "^12.0.0",
+    "moment": "^2.30.1",
+    "mysql2": "^3.3.1",
+    "redis": "^4.6.6",
+    "sequelize": "^6.31.1",
+    "uuid": "^9.0.0",
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

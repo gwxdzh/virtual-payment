@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "E:\\个人项目\\虚拟支付系统\\virtual-payment-system\\logs\\.66c6c455229167471deee5c35c2a82e1048ca52e-audit.json",
+    "files": [
+        {
+            "date": 1747640396671,
+            "name": "E:\\个人项目\\虚拟支付系统\\virtual-payment-system\\logs\\rejections-2025-05-19.log",
+            "hash": "25f6b4719177bb4c1c42a31f3b592d7a8a0493483c45548f7068e041d60bad09"
+        }
+    ],
+    "hashType": "sha256"
+}
